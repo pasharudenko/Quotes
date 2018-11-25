@@ -18,8 +18,6 @@
         methods: {
             deleteItem() {
                 this.quotes.splice(this.index, 1);
-                console.log(this.index);
-                console.log(this.quotes);
             }
         }
     }
